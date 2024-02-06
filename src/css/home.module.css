@@ -1,0 +1,28 @@
+/* Add this CSS in your stylesheets or use a CSS-in-JS solution */
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-partition,
+  .right-partition {
+    flex: 1;
+    max-width: 45%;
+  }
+  
+  .left-partition h2,
+  .right-partition h2 {
+    margin-bottom: 20px;
+  }
+  
+  .right-partition p {
+    margin-bottom: 15px;
+  }
+  .right-partition-image {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+  }
